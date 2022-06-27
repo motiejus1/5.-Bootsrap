@@ -23,6 +23,123 @@
     <!-- naudojant terminala mes galime instaliuotis tiek frontend/backend bibliotekas -->
 </head>
 <body>
-    <p>Tekstas Tekstas</p>
+    <!-- .container klase -->
+    <!-- .container -->
+    <!-- .container-fluid - imituoja flex -->
+    <!-- .row - eilute -->
+    <!-- .col-x, cia x yra nuo 1-12 -->
+    <!-- .col-xx-yy, kur y yra nuo 1-12  -->
+    <!-- x - ekrano dydis -->
+
+    <!-- 1 - 100%/12 = 8.33% -->
+    <!-- 2  = 16.66% -->
+    <!-- 3 -  25% -->
+    <!-- ... -->
+    <!-- XS - extra small (mobilūs telefonai). abu elementai uzima 12 stulpeliu
+• SM - small (planšetės, maži ekranai). abu elementai uzima 12 stulpeliu
+• MD - medium (nešiojami kompiuteriai). pirmas elementas - 9, antras - 3
+• LG - large (platūs monitoriai) puse per puse -->
+
+<!-- block-left 51% -->
+    <div class="container">
+        <div class="row">
+            <div class="block-left col-xs-12 col-sm-12 col-md-9 col-lg-6 ">
+                1
+            </div>
+            <div class="block-right col-xs-12 col-sm-12 col-md-3 col-lg-6 ">
+                2
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="block-left col-8">
+                3
+            </div>
+            <div class="block-right col-4">
+                4
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-left col-4">
+                5
+            </div>
+            <div class="block-right col-4">
+                6
+            </div>
+            <div class="block-right col-4">
+                7
+            </div>
+        </div>
+        <div class="row">
+            <div class="block-left col-6">
+                <div class="row">
+                    <div class="block-left col-12">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="nike-shoe.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="hipster-lamp.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="nike-shoe.jpeg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Paleisti isokanti langa
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Labas
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="card" style="width: 18rem;">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+    </div>
+
+
+
+
+
+
 </body>
 </html>
